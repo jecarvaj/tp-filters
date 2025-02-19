@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  width: 230px;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+label {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+fieldset {
+  border: 1px solid #444;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 5px;
+  color: #e0e0e0;
+}
+
+legend::after {
+  content: '';
+  flex-grow: 1;
+  border-bottom: 1px solid #e0e0e0;
+  margin: 0 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+form {
+  padding: 10px;
+  background-color: #1e1e1e;
+  border-radius: 5px;
+}
+
+.toggle-all {
+  color: #b0b0b0;
+  text-decoration: underline;
+  cursor: pointer;
+  float: inline-end;
+}

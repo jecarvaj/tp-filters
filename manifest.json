@@ -1,0 +1,15 @@
+{
+  "name": "TargetProcess Filters",
+  "description": "Show or hide columns for TP",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/16.png",
+      "48": "images/48.png",
+      "128": "images/128.png"
+    }
+  },
+  "permissions": ["activeTab", "scripting"]
+}

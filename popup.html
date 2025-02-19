@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DOM Filter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <form id="filter-form">
+    <fieldset>
+      <legend>Initial states <a href="#" class="toggle-all">all</a></legend>
+      <label>
+        <input type="checkbox" id="filterCheckboxCreated" checked>
+        Created
+      </label>
+      <label>
+        <input type="checkbox" id="filterCheckboxRedacted" checked>
+        Redacted
+      </label>
+      <label>
+        <input type="checkbox" id="filterCheckboxApproved" checked>
+        Approved
+      </label>
+      <label>
+        <input type="checkbox" id="filterCheckboxQueued" checked>
+        Queued
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Dev states <a href="#" class="toggle-all">all</a></legend>
+      <label>
+        <input type="checkbox" id="filterCheckboxInProgress" checked>
+        In Progress
+      </label>
+      <label>
+        <input type="checkbox" id="filterCheckboxCodeReview" checked>
+        Code Review
+      </label>
+      <label>
+        <input type="checkbox" id="filterCheckboxQueuedQAReturned" checked>
+        Queued QA Returned
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>QA states <a href="#" class="toggle-all">all</a></legend>
+      <label>
+        <input type="checkbox" id="filterCheckboxQueuedQA" checked>
+        Queued QA
+      </label>
+      <label>
+        <input type="checkbox" id="filterCheckboxInProgressQA" checked>
+        In Progress QA
+      </label>
+      <label>
+        <input type="checkbox" id="filterCheckboxDoneQA" checked>
+        Done QA
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Final states <a href="#" class="toggle-all">all</a></legend>
+      <label>
+        <input type="checkbox" id="filterCheckboxMerged" checked>
+        Merged
+      </label>
+      <label>
+        <input type="checkbox" id="filterCheckboxDeployedOrClosed" checked>
+        Deployed or Closed
+      </label>
+    </fieldset>
+  </form>
+  <script src="popup.js"></script>
+</body>
+
+</html>
+
+
